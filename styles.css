@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navigation a {
+    margin: 0 15px;
+    color: #fff;
+    font-size: 1em;
+}
+
+.main {
+    height: 100vh;
+    background: url('images/IMG_5609.PNG') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.main-btn {
+    background: #ff9900;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.info {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.card .info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card .info p {
+    font-size: 1em;
+}
+
+.pcard {
+    background: #f4f4f4;
+    margin: 10px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pimg img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.pinfo {
+    padding: 20px;
+    text-align: center;
+}
+
+.pinfo .pcatogry {
+    color: #777;
+    font-size: 1em;
+}
+
+.ptitle {
+    font-size: 1.3em;
+}
+
+.ptitle .more-details {
+    color: #000;
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: underline;
+}
